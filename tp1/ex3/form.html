@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang>
+    <head>
+        <meta charset="UTF-8">
+        <title>Form</title>
+    </head>
+    <body>
+        <form method="get">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            <br>
+            <label>Age:</label>
+            <br>
+            <input type="radio" name="age"> &lt;18
+            <input type="radio" name="age"> 19-35
+            <input type="radio" name="age"> 36-48
+            <input type="radio" name="age"> &gt;49
+            <br>
+            <label for="profession">Profession:</label>
+            <br>
+            <input name="profession" id="profession" list="professions">
+            <datalist id="professions">
+                <option>Teacher</option>
+                <option>Doctor</option>
+                <option>Nurse</option>
+            </datalist>
+            <br>
+            <label for="country">Country:</label>
+            <select name="country" id="country" required>
+                <option value="">Select your country</option>
+                <option value="portugal">Portugal</option>
+                <option value="england">England</option>
+                <option value="usa">USA</option>
+            </select>
+            <br>
+            <label>Interests:</label>
+            <br>
+            <input type="checkbox" name="interests" value="bike">Ride a bike
+            <br>
+            <input type="checkbox" name="interests" value="car">Drive a car
+            <br>
+            <label for="text">How did you found the website?</label>
+            <br>
+            <textarea name="text" id="text" cols="70" rows="3"></textarea>
+            <br>
+            <button>Submit</button>
+        </form>
+        <br><br>
+        <p>URL after GET: http://127.0.0.1:5500/Aula1/Exerc%C3%ADcio3/form.html?profession=&country=Portugal&text=</p>
+        <p>URL after POST: http://127.0.0.1:5500/Aula1/Exerc%C3%ADcio3/form.html</p>
+    </body>
+</html>
