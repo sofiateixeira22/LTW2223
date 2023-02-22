@@ -1,0 +1,66 @@
+.title {
+    font-family: 'Imperial Script';
+    font-size: 5em;
+    text-align: center;
+}
+
+.recipe {
+    text-align: center;
+    background-color: #F6ECE2;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.sectionHead {
+    font-family: 'Ruda';
+    text-align: right;
+    border-bottom: 1px solid black;
+}
+
+dl {
+    text-align: left;
+    padding: 20px;
+    background-color: #F5CAC3;
+    border-top: 1px dashed #F38483;
+    border-left: 1px dashed #F38483;
+    border-bottom: 1px dashed #F38483;
+    border-right: 4px solid #F38483;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+dt {
+    text-transform: capitalize;
+    font-variant: small-caps;
+}
+
+p {
+    font-family: 'Crimson Pro';
+    text-align: justify;
+}
+
+.francesinha {
+    width: 100%;
+}
+
+.strong {
+    font-weight: bold;    
+}
+
+ul, ol {
+    text-align: left;
+}
+
+li {
+    margin: 15px;
+}
+
+.ingredient {
+    font-weight: bold;
+    color: #85A49D;
+}
