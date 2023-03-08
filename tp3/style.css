@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700|Poppins:400,700');
+
+/* NAV */
+body > header {
+    background-color: #046DD5;
+    padding: 1em;
+}
+body > header a {
+    color: white;
+    text-decoration: none;
+    font-weight: lighter;
+    font-family: 'Poppins';
+}
+body > header h1 a {
+    font-weight: bold;
+}
+#signup a:first-child {
+    padding-right: 1em;
+    border-right: 1px solid white;
+}
+#signup a:last-child {
+    padding-left: 1em;
+}
+
+/* MENU */
+#menu input, #menu label {
+    display: none;
+}
+#menu {
+    margin-bottom: 1em;
+}
+#menu > ul {
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#menu li:nth-child(1) {
+    padding: 1em;
+    border-top: 4px solid #E1493E;
+}
+#menu li:nth-child(2) {
+    padding: 1em;
+    border-top: 4px solid #8ABA56;
+}
+#menu li:nth-child(3) {
+    padding: 1em;
+    border-top: 4px solid #5B4282;
+}
+#menu li:nth-child(4) {
+    padding: 1em;
+    border-top: 4px solid #FF8932;
+}
+#menu li:nth-child(5) {
+    padding: 1em;
+    border-top: 4px solid #19B6E9;
+}
+#menu li:nth-child(6) {
+    padding: 1em;
+    border-top: 4px solid #E84C8B;
+}
+#menu a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins';
+}
+#menu li:hover{
+    background-color: #2A2F33;
+}
+#menu li:hover a {
+    color: white;
+}
+
+/* ASIDE */
+#related {
+    background-color: #2A2F33;
+    padding: 1em;
+    color: white;
+    font-family: 'Lora';
+}
+#related article h1 a {
+    text-decoration: none;
+    color: white;
+}
+
+/* SECTION */
+#news {
+    font-family: 'Lora';
+}
+#news article img {
+    width: 100%;
+}
+#news article header h1 a {
+    position: absolute;
+    color: white;
+    font-size: 200%;
+    text-decoration: none;
+    text-align: left;
+    text-shadow: 5px 5px #2A2F33;
+    width: 25%;
+    margin: 1em;
+}
+#news > article p:first-of-type::first-letter {
+    font-weight: bold;
+    font-size: 200%;
+}
+#news article footer {
+    background-color: #F4655F;
+    color: white;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+#news article footer span a, #news article footer a {
+    color: white;
+}
+
+/* FOOTER */
+body > footer {
+    background-color: #2A2F33;
+    color: white;
+    padding: 0.5em;
+    margin-top: 1em; 
+}
